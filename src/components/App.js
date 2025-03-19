@@ -12,7 +12,7 @@ const handleChange=(e)=>{
         {/* Do not remove the main div */}
     <label>Enter Your Name:</label>
       <input type='text' onChange={handleChange}/>
-      <div>{name ? `Hello ${name}!` : ""}</div>
+      <div>{name ? `Hello, ${name}!` : ""}</div>
     </div>
   )
 }
